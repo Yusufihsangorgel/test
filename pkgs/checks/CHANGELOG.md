@@ -57,6 +57,8 @@
 - Add `prints()` check extensions on `Subject<void Function()>` and
   `Subject<Future<void> Function()>` to check expectations against captured
   printed output.
+- Add `DateTimeChecks` with `isAtSameMomentAs`, `isBefore`, and `isAfter`
+  expectations on `Subject<DateTime>`.
 
 ## 0.3.2
 
